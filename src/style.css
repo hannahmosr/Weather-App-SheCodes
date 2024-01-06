@@ -1,5 +1,5 @@
 body {
-  background-color: #c996b8;
+  background-color: #c996b84d;
   font-family: "Quicksand", sans-serif;
   color: white;
 }
@@ -38,10 +38,43 @@ a {
   background-color: #c996b8;
   color: white;
 }
+.weather-app-data {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+.weather-app-city {
+  margin: 0;
+  font-size: 48px;
+  line-height: 48px;
+  padding: 30px 0 0 0;
+}
 
+.weather-app-details strong {
+  font-weight: 500;
+  color: #c996b8;
+  line-height: 48px;
+}
+
+.weather-temperature-container {
+  display: flex;
+}
+
+.weather-icon {
+  font-size: 40px;
+  margin-top: 32px;
+}
+.weather-temperature {
+  font-size: 110px;
+  font-weight: 600;
+}
+.weather-unit {
+  font-size: 35px;
+  margin-top: 32px;
+}
 footer {
   border-top: 1px solid #f9f7fe;
   padding: 30px 0 0 0;
   text-align: center;
-  font-size: 13px;
+  font-size: 13 px;
 }
