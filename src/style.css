@@ -1,6 +1,7 @@
 body {
   background-color: #c996b8;
   font-family: "Quicksand", sans-serif;
+  color: white;
 }
 
 .weather-app {
@@ -19,6 +20,10 @@ body {
   border-radius: 16px;
   border: none;
   font-size: 16px;
+}
+
+.search-form-input::placeholder {
+  color: #c996b8;
 }
 
 .search-form-button {
