@@ -9,8 +9,8 @@ a {
 }
 
 .weather-app {
-  background-color: white;
-  background-image: url("file:///Users/hannahmoser/Downloads/abstract-art.jpg");
+  background-color: #b3e5f0;
+  background-image: url("https://images.unsplash.com/photo-1564951434112-64d74cc2a2d7?q=80&w=2574&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
   max-width: 600px;
   margin: 30px auto;
   padding: 30px;
