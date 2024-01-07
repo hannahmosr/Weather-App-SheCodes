@@ -80,3 +80,9 @@ footer {
   text-align: center;
   font-size: 13 px;
 }
+
+.weather-forecast {
+  text-align: center;
+  display: block;
+  max-width: 80px;
+}
