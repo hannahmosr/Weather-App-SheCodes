@@ -61,12 +61,14 @@ a {
 }
 
 .weather-icon {
-  font-size: 40px;
-  margin-top: 32px;
+  width: 88px;
+  height: 88px;
+  line-height: 240px;
 }
 .weather-temperature {
   font-size: 110px;
   font-weight: 600;
+  line-height: 150px;
 }
 .weather-unit {
   font-size: 35px;
