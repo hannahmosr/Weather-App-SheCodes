@@ -17,6 +17,8 @@ function updateWeather(response) {
   timeElement.innerHTML = formatDate(date);
   iconElement.innerHTML = `<img src="${response.data.condition.icon_url}" class="weather-icon"/>`;
   console.log(response.data);
+
+  getForecast(response.data.city);
 }
 
 function formatDate(date) {
@@ -56,8 +58,13 @@ function searchFormQuery(event) {
   newCity(searchInput.value);
 }
 
-function displayForecast() {
-  let forecastElement = document.querySelector("#weather-forecast");
+function getForecast(city) {
+  let apiKey = "7394a3ffab5cc09c86e6t0co260f5ec2";
+  let apiUrl = `https://api.shecodes.io/weather/v1/forecast?query=${city}&key=${apiKey}&units=metric`;
+  axios.get(apiUrl).then(displayForecast);
+}
+function displayForecast(response) {
+  console.log(response.data);
 
   let days = ["Tue", "Wed", "Thu", "Fri", "Sat"];
   let forecastHtml = "";
@@ -76,7 +83,7 @@ function displayForecast() {
   
 </div>`;
   });
-
+  let forecastElement = document.querySelector("#weather-forecast");
   forecastElement.innerHTML = forecastHtml;
 }
 
@@ -84,4 +91,3 @@ let searchForm = document.querySelector("#search-form");
 searchForm.addEventListener("submit", searchFormQuery);
 
 newCity("Innsbruck");
-displayForecast();
