@@ -8,6 +8,9 @@ a {
   color: #c996b8;
 }
 
+main {
+  height: 350px;
+}
 .weather-app {
   background-color: #b3e5f0;
   background-image: url("https://images.unsplash.com/photo-1564951434112-64d74cc2a2d7?q=80&w=2574&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
@@ -51,7 +54,7 @@ a {
 }
 
 .weather-app-details strong {
-  font-weight: 500;
+  font-weight: 800;
   color: #c996b8;
   line-height: 48px;
 }
@@ -90,4 +93,12 @@ footer {
 .weather-forecast-icon {
   width: 88px;
   height: 88px;
+}
+
+.weather-forecast-temperature-max {
+  padding: 5px;
+}
+
+.weather-forecast-temperature-min {
+  padding: 5px;
 }
