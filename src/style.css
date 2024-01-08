@@ -86,3 +86,8 @@ footer {
   display: flex;
   justify-content: space-between;
 }
+
+.weather-forecast-icon {
+  width: 88px;
+  height: 88px;
+}
