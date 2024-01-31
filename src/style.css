@@ -10,25 +10,31 @@
     max-width: 375px;
   }
 
-  .search-form-input {
+  .search-form-input,
+  .search-form-button {
     width: auto !important;
   }
   .weather-temperature-container {
     max-width: 50% !important;
   }
 
-  .weather-temperature,
+  .weather-temperature {
+    font-size: 40px !important;
+    line-height: 250px !important;
+  }
   .weather-app-city {
     font-size: 40px !important;
   }
 
   .weather-unit {
     font-size: 20px !important;
+    margin-top: 100px !important;
   }
 
   .weather-icon {
     width: 64px !important;
     height: 64px !important;
+    line-height: 310px !important;
   }
   .weather-forecast-date,
   .weather-forecast-temperature-max,
