@@ -10,10 +10,14 @@
     max-width: 375px;
   }
 
+  .weather-app-data {
+    max-height: 200px !important;
+  }
   .search-form-input,
   .search-form-button {
     width: auto !important;
   }
+
   .weather-temperature-container {
     max-width: 50% !important;
   }
@@ -49,7 +53,7 @@
   }
 
   .weather-app-details {
-    font-size: 15px;
+    font-size: 12px !important;
   }
 }
 
