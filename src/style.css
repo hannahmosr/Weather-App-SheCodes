@@ -13,9 +13,12 @@
   .weather-app-data {
     max-height: 200px !important;
   }
-  .search-form-input,
+  .search-form-input {
+    width: 40% !important;
+  }
+
   .search-form-button {
-    width: auto !important;
+    width: 20% !important;
   }
 
   .weather-temperature-container {
