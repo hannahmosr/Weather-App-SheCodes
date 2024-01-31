@@ -6,24 +6,24 @@
 }
 
 @media (max-width: 600px) {
-  .weather-app {
+  /* .weather-app {
     max-width: 375px;
-  }
+  } */
 
   .weather-app-data {
     max-height: 200px !important;
   }
   .search-form-input {
-    width: 40% !important;
+    width: 60% !important;
   }
 
   .search-form-button {
-    width: 20% !important;
+    width: 30% !important;
   }
 
-  .weather-temperature-container {
+  /* .weather-temperature-container {
     max-width: 50% !important;
-  }
+  } */
 
   .weather-temperature {
     font-size: 40px !important;
