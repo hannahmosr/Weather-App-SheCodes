@@ -7,14 +7,49 @@
 
 @media (max-width: 600px) {
   .weather-app {
-    max-width: 100%;
+    max-width: 375px;
+  }
+
+  .search-form-input {
+    width: auto !important;
+  }
+  .weather-temperature-container {
+    max-width: 50% !important;
+  }
+
+  .weather-temperature,
+  .weather-app-city {
+    font-size: 40px !important;
+  }
+
+  .weather-unit {
+    font-size: 20px !important;
+  }
+
+  .weather-icon {
+    width: 64px !important;
+    height: 64px !important;
+  }
+  .weather-forecast-date,
+  .weather-forecast-temperature-max,
+  .weather-forecast-temperature-min,
+  footer {
+    font-size: 10px !important;
+  }
+
+  .weather-forecast-icon {
+    width: 34px !important;
+    height: 34px !important;
+  }
+
+  .weather-app-details {
+    font-size: 15px;
   }
 }
 
 body {
   background-color: var(--primary-color);
   font-family: var(--primary-font);
-  margin-top: 130px;
 }
 
 a {
